@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+body {
+  background-color:white;
+  font-family: 'Inconsolata', monospace;
+  color: #333;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-results {
+    display: inline-block;
+    padding: 20px;
+    width: 100%;
+}
+.result-item {
+    background-color: #333;
+    color: white;
+}
+.result-item-title {
+    padding: 10px;
+}
+.result-item a {
+    padding: 15px;
+}
+.result-item-snippet {
+    padding: 10px;
+    display: inline;
+}
